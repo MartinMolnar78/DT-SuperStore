@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 101,
+    "product_name": "Product A",
+    "unit_price": 25.00,
+    "units_in_stock": 100,
+    "suppliers": [
+      {
+        "company_name": "Supplier X",
+        "phone": "123-456-7890",
+        "email": "supplierx@example.com",
+        "fax": "123-456-7891"
+      }
+    ],
+    "category": [
+      {
+        "category_name": "Category1",
+        "category_description": "Description for Category1",
+        "subCategory_name": "SubCategory1",
+        "subCategory_description": "Description for SubCategory1"
+      }
+    ],
+    "stocks": [
+      {
+        "quantity_available": 80,
+        "reorder_level": 20,
+        "reorder_quantity": 50,
+        "warehouse_location": "Warehouse1"
+      }
+    ]
+  },
+  {
+    "_id": 102,
+    "product_name": "Product B",
+    "unit_price": 30.00,
+    "units_in_stock": 150,
+    "suppliers": [
+      {
+        "company_name": "Supplier Y",
+        "phone": "987-654-3210",
+        "email": "suppliery@example.com",
+        "fax": "987-654-3211"
+      }
+    ],
+    "category": [
+      {
+        "category_name": "Category2",
+        "category_description": "Description for Category2",
+        "subCategory_name": "SubCategory2",
+        "subCategory_description": "Description for SubCategory2"
+      }
+    ],
+    "stocks": [
+      {
+        "quantity_available": 120,
+        "reorder_level": 30,
+        "reorder_quantity": 60,
+        "warehouse_location": "Warehouse2"
+      }
+    ]
+  },
+  {
+    "_id": 103,
+    "product_name": "Product C",
+    "unit_price": 20.00,
+    "units_in_stock": 200,
+    "suppliers": [
+      {
+        "company_name": "Supplier Z",
+        "phone": "555-123-4567",
+        "email": "supplierz@example.com",
+        "fax": "555-123-4568"
+      }
+    ],
+    "category": [
+      {
+        "category_name": "Category3",
+        "category_description": "Description for Category3",
+        "subCategory_name": "SubCategory3",
+        "subCategory_description": "Description for SubCategory3"
+      }
+    ],
+    "stocks": [
+      {
+        "quantity_available": 180,
+        "reorder_level": 40,
+        "reorder_quantity": 70,
+        "warehouse_location": "Warehouse3"
+      }
+    ]
+  }
+]

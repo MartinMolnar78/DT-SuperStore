@@ -1,0 +1,80 @@
+[
+  {
+    "_id": 1,
+    "customer_no": 1001,
+    "first_name": "John",
+    "last_name": "Doe",
+    "age": 28,
+    "gender": "Male",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "fax": "123-456-7891",
+    "address": {
+      "street": "123 Elm St",
+      "postal_code": "12345",
+      "city": "Somewhere",
+      "region_name": "Region1",
+      "state_name": "State1"
+    },
+    "reviews": [
+      {
+        "product_id": 101,
+        "rating": 4.5,
+        "review_text": "Great product!",
+        "review_date": "2024-01-15"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "customer_no": 1002,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "age": 32,
+    "gender": "Female",
+    "email": "jane.smith@example.com",
+    "phone": "987-654-3210",
+    "fax": "987-654-3211",
+    "address": {
+      "street": "456 Oak St",
+      "postal_code": "67890",
+      "city": "Anywhere",
+      "region_name": "Region2",
+      "state_name": "State2"
+    },
+    "reviews": [
+      {
+        "product_id": 102,
+        "rating": 3.8,
+        "review_text": "Good value for money.",
+        "review_date": "2024-02-20"
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "customer_no": 1003,
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "age": 45,
+    "gender": "Female",
+    "email": "alice.johnson@example.com",
+    "phone": "555-123-4567",
+    "fax": "555-123-4568",
+    "address": {
+      "street": "789 Pine St",
+      "postal_code": "11223",
+      "city": "Everywhere",
+      "region_name": "Region3",
+      "state_name": "State3"
+    },
+    "reviews": [
+      {
+        "product_id": 103,
+        "rating": 5.0,
+        "review_text": "Excellent quality!",
+        "review_date": "2024-03-10"
+      }
+    ]
+  }
+]

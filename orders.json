@@ -1,0 +1,53 @@
+[
+  {
+    "_id": 1,
+    "customer_no": 1001,
+    "orderDate": "2024-01-10",
+    "shipDate": "2024-01-12",
+    "segment": "Consumer",
+    "shipMode": "Standard",
+    "orderDetails": [
+      {
+        "product_id": 101,
+        "quantity": 2,
+        "total": 50.00,
+        "discount": 5.00,
+        "profit": 10.00
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "customer_no": 1002,
+    "orderDate": "2024-02-05",
+    "shipDate": "2024-02-07",
+    "segment": "Corporate",
+    "shipMode": "Express",
+    "orderDetails": [
+      {
+        "product_id": 102,
+        "quantity": 1,
+        "total": 30.00,
+        "discount": 3.00,
+        "profit": 5.00
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "customer_no": 1003,
+    "orderDate": "2024-03-15",
+    "shipDate": "2024-03-18",
+    "segment": "Home Office",
+    "shipMode": "Overnight",
+    "orderDetails": [
+      {
+        "product_id": 103,
+        "quantity": 5,
+        "total": 100.00,
+        "discount": 10.00,
+        "profit": 15.00
+      }
+    ]
+  }
+]
